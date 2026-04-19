@@ -3,7 +3,7 @@
 Мир-движок. Единственный агент, который пишет в канон про мир:
 локации, NPC, фракции, секреты, арки, plot_state, world_meta.
 
-Часть мульти-агентной системы [worldsim](https://github.com/b3axap/worldsim-workspace).
+Часть мульти-агентной системы [worldsim](https://github.com/worldsim-rpg/worldsim-workspace).
 
 ## Три подрежима
 
