@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "worldsim-world-builder"
+version = "0.1.0"
+description = "World engine agent: generation, lazy detailing, and turn-level state updates."
+requires-python = ">=3.11"
+dependencies = [
+  "anthropic>=0.40.0",
+  "pydantic>=2.6.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
